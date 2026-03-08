@@ -1,5 +1,5 @@
 # lint and format staged files
-pnpm run lint-staged
+pnpm exec lint-staged
 
 # verify typescript staged files
-npx tsc --build .
+pnpm exec tsc --build .

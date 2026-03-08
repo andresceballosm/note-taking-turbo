@@ -48,3 +48,13 @@ Thumbs.db
 
 # Docker
 *.pid
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+*.cover
+coverage.xml
+*.coveragerc
